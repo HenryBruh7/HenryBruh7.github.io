@@ -1,0 +1,66 @@
+h1 {
+color:black;
+font-style:italic;
+font-family:'Berlin Sans';
+font-size:25px;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+min-height: 100vh;
+box-sizing: border-box;
+}
+
+.Encabezado {
+background-color:lightgoldenrodyellow;
+border: 2px solid black;
+flex: 0 0 100%;
+color:black;
+padding:20px;
+box-sizing:border-box;
+}
+
+.Nav-Bar {
+background-color: lightyellow;
+border: 2px solid black;
+flex: 0 0 100%;
+color: black;
+padding: 10px;
+box-sizing: border-box
+}
+
+.slidebar {
+background-color:papayawhip;
+border: 2px solid black;
+flex: 0 0 20%;
+color:black;
+padding:20px;
+box-sizing:border-box;
+}
+
+.main-content {
+    border: 2px solid black;
+    flex: 0 0 80%;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    background-image: url("img\netherlands.jpg")
+}
+
+.extra-content {
+background-color:orange;
+border: 2px solid black;
+margin-bottom: 30px;
+display:flex;
+}
+
+.Pie-de-pagina{
+background-color:coral;
+border: 2px solid black;
+flex: 0 0 100%;
+color:black;
+padding:20px;
+box-sizing:border-box;
+}
